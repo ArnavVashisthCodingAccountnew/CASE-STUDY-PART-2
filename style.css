@@ -1,0 +1,372 @@
+img:hover {
+    opacity: 0.5;
+}
+
+div {
+    text-align: center;
+}
+
+small {
+    display: block;
+}
+
+a {
+    color: #343078;
+    text-decoration: none;
+}
+
+body {}
+
+#para {
+    font-family: 'Chilanka', cursive;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.buttonsee{
+    background-image: url(https://image.shutterstock.com/image-vector/order-now-red-square-3d-260nw-293189309.jpg)
+}
+#album { 
+border-style:solid;
+border-color:#689F38
+border: 1px ;
+border-radius: 80px;
+padding: 5px;
+width: 200px;
+    height:120px;
+
+}
+
+
+
+
+
+
+#albumfamily {
+    border-style: solid;
+    border-color: #689F38;
+    border: 1px;
+    border-radius: 80px;
+    padding: 5px;
+    width: 200px;
+}
+
+#albumn2 {
+    border-style: solid;
+    border-color: #689F38;
+    border: 1px;
+    border-radius: 80px;
+    padding: 5px;
+    width: 40px;
+}
+
+#albumn2 {
+    border-style: solid;
+    border-color: #689F38;
+    border: 1px;
+    border-radius: 80px;
+    padding: 5px;
+    width: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+p {}
+
+h2 {
+    font-size: 30px;
+    color: brown;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 200;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#head {
+
+    font-size: 30px;
+    color: tomato;
+    border-style: solid;
+    background-color: green;
+    text-transform: uppercase;
+}
+
+#Header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darksalmon;
+    font-size: 30px;
+}
+
+#albumnsign {
+    border-style: solid;
+    border-color: #689F38;
+    border: 1px;
+    border-radius: 80px;
+    padding: px;
+    width: 40px;
+
+
+}
+
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 40%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image_nitin {
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: 70%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    bottom: px;
+    left: ;
+    transform: translate(-1%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.5;
+
+}
+
+.container:hover .middle {
+    opacity: 0.5;
+}
+
+.text-block {
+    font-size: 15px;
+    background-color: wheat;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 25px;
+    width: 250px;
+}
+
+#abc {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: sandybrown;
+    font-size: 30px;
+    color: white;
+}
+
+#para_abc {
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.glass {
+    float: left;
+    padding: 10px;
+    height: 600px;
+    width: 10%;
+
+}
+
+.jar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: peachpuff;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 30%;
+
+}
+
+.grid-item:hover .image {
+    opacity: 0.5;
+
+}
+
+.grid-item:hover .middle {
+    opacity: 0.5;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item{
+    height:200px;
+    width:400px;
+}
+.grid-item img{
+    width: 300px;
+height: 900px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: blue;
+    position: fixed;
+    bottom: 9000;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    
+    text-decoration: underline;
+  
+  
+  }
+  
+  .navbar a.active {
+    color: white;
+     text-decoration: underline;
+  }
+  /* start of navar*/
+  #ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+      font-size:30px;
+      color:white;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333;
+      font-size:20px;
+      margin-top:0px;
+      top:0px;
+      z-index:10;
+      position: fixed;
+      text-align: center;
+      width:100%;
+  }
+  li {
+      display: inline;
+    float: left;
+   border-right:5px solid #bbb;
+      padding-left: 13px;
+      padding-right: 5px;
+      font-family: fantasy;
+      font-size:20px;
+  }
+  li:hover {
+  font-size: 25px;
+      text-decoration: underline;
+  }
+  
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  
+  }
+  
+  li a:hover:not(.active) {
+    background-color: white;
+      color:black;
+  }
+  
+  .active {
+    background-color:green;
+  }
+  
+  
+  
+  a:hover {
+       text-shadow: 2px 2px gainsboro;
+  }
